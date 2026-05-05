@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card {
+      background: #1a1a1a;
+      border: 1px solid #2e2e2e;
+      border-radius: 16px;
+      padding: 56px 64px;
+      max-width: 600px;
+      width: 90%;
+      text-align: center;
+    }
+
+    .avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+      margin: 0 auto 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: #ffffff;
+    }
+
+    .role {
+      font-size: 1rem;
+      color: #6b7280;
+      margin-bottom: 32px;
+    }
+
+    .about {
+      font-size: 0.95rem;
+      color: #9ca3af;
+      line-height: 1.75;
+      margin-bottom: 40px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+
+    .skill {
+      background: #252525;
+      border: 1px solid #333;
+      border-radius: 20px;
+      padding: 6px 16px;
+      font-size: 0.82rem;
+      color: #a0a8b8;
+    }
+
+    .links {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+    }
+
+    .links a {
+      color: #3b82f6;
+      text-decoration: none;
+      font-size: 0.9rem;
+      padding: 10px 24px;
+      border: 1px solid #3b82f6;
+      border-radius: 8px;
+      transition: background 0.2s;
+    }
+
+    .links a:hover { background: #1d4ed820; }
+
+    .badge {
+      display: inline-block;
+      margin-top: 40px;
+      background: #0d2010;
+      border: 1px solid #1a4a25;
+      color: #4ade80;
+      border-radius: 6px;
+      padding: 6px 14px;
+      font-size: 0.78rem;
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">👨‍💻</div>
+
+    <h1>Ramit Basra</h1>             <!-- ← EDIT THIS -->
+    <p class="role">DevOps Engineer · Cloud Enthusiast</p>  <!-- ← EDIT THIS -->
+
+    <p class="about">
+      Passionate about automation, infrastructure as code, and building
+      reliable systems. Currently learning Docker, Kubernetes, and CI/CD
+      pipelines.                         <!-- ← EDIT THIS -->
+    </p>
+
+    <div class="skills">
+      <span class="skill">Docker</span>
+      <span class="skill">Kubernetes</span>
+      <span class="skill">GitHub Actions</span>
+      <span class="skill">Python</span>
+      <span class="skill">Terraform</span>
+      <span class="skill">Linux</span>  <!-- ← ADD/REMOVE skills here -->
+    </div>
+
+    <div class="links">
+      <a href="https://github.com/YOUR_GITHUB">GitHub</a>
+      <a href="https://www.linkedin.com/in/ramit-basra/">LinkedIn</a>
+    </div>
+
+    <div class="badge">🚀 Deployed via Docker + Kubernetes + GitHub Actions</div>
+  </div>
+</body>
+</html>
