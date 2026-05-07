@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: portfolio
-          image: basraramit/portfolio:v2   # ← EDIT THIS
+          image: basraramit/portfolio-devops:latest   # ← EDIT THIS
           ports:
             - containerPort: 80
           resources:
