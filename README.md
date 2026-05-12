@@ -1,4 +1,4 @@
-# 🐳 portfolio-devops
+# 🐳 Auto Update Portfolio-pipeline
 
 A static HTML portfolio page served by Nginx, containerized with Docker, deployed to a local Kubernetes cluster via Minikube, and automatically rebuilt and redeployed on every push through a GitHub Actions CI/CD pipeline.
 
